@@ -1,0 +1,17 @@
+/*utility-first cria uma classe com apenas um utilizade (nesse caso, criar um grid)*/
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+}
+
+.grid-cols-2 {
+    grid-template-columns: 1fr 1fr;
+}
+
+.gap-1rem {
+    gap: 1rem;
+}
