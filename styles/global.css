@@ -33,6 +33,26 @@ a {
     color: inherit; /*inherit herda as configurações do pai - nesse caso, a cor*/
 }
 
+a:hover {
+    color: var(--brand-color-light);
+}
+
 h1, h2, h3 {
     font: inherit;
+}
+
+.container {
+    max-width: 1280px;
+    padding-inline: 2rem;
+    margin-inline: auto;
+}
+
+/*utility-first cria uma classe com apenas um utilizade (nesse caso, criar um grid)*/
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
 }
